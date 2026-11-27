@@ -19,6 +19,7 @@ Little apps and utilities that make everyday computer work a bit more pleasant.
       A desktop clock with 17 designs plus your own, alarms, timers, Pomodoro, your next calendar event (with meeting links) and world clocks.<br>
       <a href="https://github.com/deskcraft/clockpane/releases/latest/download/Clockpane.dmg">⬇️ ダウンロード / Download</a>
       ・ <a href="https://github.com/deskcraft/clockpane#readme">使い方 / Guide</a>
+      ・ <a href="#homebrew">Homebrew</a>
     </td>
     <td width="200" align="center" valign="top">
       <a href="https://github.com/deskcraft/clockpane"><img src="https://raw.githubusercontent.com/deskcraft/clockpane/main/docs/images/clock-info.png" width="180" alt="Clockpane のスクリーンショット / screenshot"></a>
@@ -28,6 +29,14 @@ Little apps and utilities that make everyday computer work a bit more pleasant.
 
 ツールはこれから少しずつ増やしていきます。
 More tools are on the way.
+
+## Homebrew
+
+```bash
+brew tap deskcraft/tap
+brew trust deskcraft/tap        # Homebrew 7 以降で必要 / required on Homebrew 7+
+brew install --cask clockpane
+```
 
 ## 使うときに / Notes
 
